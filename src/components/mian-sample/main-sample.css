@@ -1,0 +1,82 @@
+.main-sample{
+    margin-top: 5rem;
+}
+.sample{
+
+}
+.sample-up{
+       display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IRANSansWeb_Light.woff';
+}
+.sample-up-text{
+    background-color: rgba(136, 136, 185, 0.459);
+    padding: 0.5rem 1.4rem;
+    border-radius:1rem;
+    color: blue;
+}
+.sample-up-title{
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+.sample-up-paraph{
+    margin: 0 0 1rem 0;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #333333;
+}
+.sample-down{
+  margin-top: 2rem;
+}
+.sample-dowm-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.down-btn{
+    font-family: 'IRANSansWeb_Light.woff';
+    background-color: #fff;
+    margin: 0 0.6rem;
+    border: 1px solid #666666;
+    border-radius: 0.3rem;
+    padding: 0.3rem 1rem; 
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.down-btn:hover{
+    background-color: #4252F9;
+    color: #fff;
+}
+
+.down-btn-active:focus{
+    background-color: #4252F9;
+    color: #fff;
+}
+
+.down-contanet{
+    margin: 3rem 0.4rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.down-content-img{
+    border: 1px solid #fff;
+    border-radius: 0.3rem;
+    box-shadow:  0 0 0.2rem 0.2rem #dadada;
+    padding: 0.5rem ;
+    margin: 0.5rem 0.5rem;
+    overflow: hidden;
+}
+
+.content-image{
+    width: 280px;
+    transition: all 0.3s ease-in;
+}
+.down-content-img .content-image:hover{
+    transform: scale(1.2);
+}

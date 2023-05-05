@@ -1,0 +1,10 @@
+.mains{
+    margin-top: 4rem;
+}
+.container{
+    max-width: 60rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}

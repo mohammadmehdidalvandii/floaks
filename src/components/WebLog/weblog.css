@@ -1,0 +1,113 @@
+.weblog{
+    margin-top: 4rem;
+}
+.weblogs{
+
+}
+.weblog-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IRANSansWeb_Light.woff';
+}
+.weblog-up-text{
+    background-color: rgba(136, 136, 185, 0.459);
+    padding: 0.5rem 1.4rem;
+    border-radius:1rem;
+    color: blue;
+}
+.weblog-up-title{
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+.weblog-up-paraph{
+    margin: 0 0 1rem 0;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #333333;
+}
+
+.weblog-down{
+    margin-top: 1rem;
+}
+.weblog-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.weblog-item{
+    width: 310px;
+    height: 450px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+   
+    position: relative;
+
+}
+.weblog-item-img{
+    width: inherit;
+    overflow: hidden;
+}
+.weblog-item-author{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #fff;
+    width: 120px;
+    padding: 0.3rem;
+    border-radius: 0.4rem;
+    position: absolute;
+    right: 0.5rem;
+    top: 12rem;
+}
+.item-author-img{
+    width: 40px;
+    border-radius: 50%;
+}
+.item-author-naem{
+    margin-right: 0.5rem;
+    font-family: 'IRANSansWeb_Light.woff';
+}
+.weblog-item-content{
+    font-family: 'IRANSansWeb_Light.woff';
+    text-align: right;
+    margin: 2rem 0.5rem;
+}
+.item-content-paraph{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.item-comment{
+    font-family: 'IRANSansWeb_Light.woff';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }   
+.ite-comment-link{
+    margin: 0 2rem;
+    text-decoration: none;
+    color: #111;
+    font-family: 'IRANSansWeb_Light.woff';
+    font-size: 1.1rem;
+    transition: all 0.3s ease-in;
+}
+.ite-comment-link:hover{
+    color: #4252F9;
+}
+.item-content-btns{
+    display: block;
+    text-align: right;
+    margin: 1rem auto;
+    padding-right: 1rem;
+    text-decoration: none;
+    color: #111;
+    font-family: 'IRANSansWeb_Light.woff';
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in;
+}
+
+.item-content-btns:hover{
+    color: #4252F9;
+}

@@ -1,0 +1,73 @@
+.main-skill{
+    margin-top: 4rem;
+}
+.skills{
+
+}
+.skill-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IRANSansWeb_Light.woff';
+
+}
+.skill-up-text{
+    background-color: rgba(136, 136, 185, 0.459);
+    padding: 0.5rem 1.4rem;
+    border-radius:1rem;
+    color: blue;
+}
+.skill-up-title{
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+.skill-up-paraph{
+    margin: 0 0 1rem 0;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #333333;
+}
+
+.skill-dwon{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+.skill-down-content{
+    display: block;
+    text-align: right ;
+    width: 300px;
+}
+.skill-content-title{
+    color: #4252F9;
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: 'IRANSansWeb_Light.woff';
+}
+.skill-content-txt{
+    font-family: 'IRANSansWeb_Light.woff';
+    font-size: 1.2rem;
+}
+.skill-content-parph{
+    font-family: 'IRANSansWeb_Light.woff';
+    font-size: 1rem ;
+    line-height: 1.4;
+}
+.skill-down-progress{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.skill-progress-text{
+    margin: 0.5rem 0;
+    font-family: 'IRANSansWeb_Light.woff';
+    color: #111;
+    font-size: 1rem;
+}
+.skill-progress-item{
+    width: 300px;
+    height: 1rem;
+}

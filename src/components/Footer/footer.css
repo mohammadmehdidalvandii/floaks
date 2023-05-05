@@ -1,0 +1,95 @@
+.footer{
+    margin-top: 10rem;
+    background-color: #F8FBFF;
+}
+.container{
+    max-width: 60rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.footers{
+    font-family: 'IRANSansWeb_Light.woff';
+}
+.footer-up{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.up-right{
+    text-align: right;
+}
+.up-right-img{
+    width: 150px;
+   
+}
+.up-right-text{
+    font-size: 2rem;
+    max-width: 20rem;
+}
+.up-center{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    justify-content: space-between;
+
+}
+.up-center-items{
+
+}
+.center-items-title{
+    font-size: 1.5rem;
+}
+.center-item{
+    list-style: none;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.center-item:hover{
+    color: #4252F9;
+}
+.up-left{
+    text-align: right;
+}
+.up-left-title{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.up-left-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.left-meida-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin: 0 0.7rem;
+font-size: 1.1rem;
+width: 2rem;
+height: 2rem;
+background-color: #E4EFFF;
+border-radius: 50px;
+color: #4252F9;
+transition: all 0.3s ease-in;
+}
+.left-meida-link:hover{
+    background-color: #4252F9;
+    color: #fff;
+}
+.up-left-app{
+
+}
+.left-app-download{
+    width: 100px;
+    cursor: pointer;
+    
+}
+.left-app-download:nth-child(1){
+    margin-right: 0.5rem;
+}

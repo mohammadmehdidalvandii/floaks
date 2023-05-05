@@ -1,0 +1,150 @@
+.contact {
+    margin-top: 4rem;
+}
+
+.contacts {}
+
+.contact-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IRANSansWeb_Light.woff';
+}
+
+.contact-up-text {
+    background-color: rgba(136, 136, 185, 0.459);
+    padding: 0.5rem 1.4rem;
+    border-radius: 1rem;
+    color: blue;
+}
+
+.contact-up-title {
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+
+.contact-up-paraph {
+    margin: 0 0 1rem 0;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #333333;
+}
+
+.contact-down {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: 60vh;
+}
+
+.contact-down-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-right-img {}
+
+.down-right-contact{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.contact-servies , .contact-phone{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.contact-phone{
+
+}
+.contact-address{
+   display: block;
+   text-align: right;
+}
+.servies-title,
+.phone-title,
+.addres-title{
+    font-family: 'IRANSansWeb_Light.woff';
+    font-size: 1.4rem ;
+    font-weight: 800;
+}
+.servies-email,
+.phone-number,
+.address-text{
+padding-bottom: 0.6rem;
+    font-family: 'IRANSansWeb_Light.woff';
+    font-size: 0.9rem;
+}
+.contact-icons{
+    color: #4252F9;
+}
+
+.contact-down-left {
+}
+
+.contactus {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.conatct-names {
+    display: block;
+    text-align: right;
+    font-family: 'IRANSansWeb_Light.woff';
+    margin-top: 3rem;
+}
+
+.contact-name-first {
+    margin: 0 0.5rem;
+}
+
+.contact-name-text {
+    height: 1.7rem;
+    border-radius: 0.4rem;
+    border: 2px solid #dadada;
+    background-color: #F8FBFF;
+    padding: 0 0.5rem;
+}
+
+.contant-subject {
+    display: flex;
+    flex-direction: column;
+    font-family: 'IRANSansWeb_Light.woff';
+    margin-top: 2rem;
+}
+
+.contact-subject-name {
+    margin: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.contact-suject-text {
+    height: 1.7rem;
+    border-radius: 0.4rem;
+    border: 2px solid #dadada;
+    background-color: #F8FBFF;
+    padding: 0 0.5rem;
+}
+
+#mass {
+    height: 5rem;
+}
+
+.contactus-btn {
+    font-family: 'IRANSansWeb_Light.woff';
+    margin: 2rem 0;
+    border: 1px solid #4252F9;
+    border-radius: 0.4rem;
+    background-color: #4252F9;
+    color: #fff;
+    display: inline;
+    width: 100px;
+    padding: 0.4rem 0;
+    text-align: center;
+    text-decoration: none;
+
+}

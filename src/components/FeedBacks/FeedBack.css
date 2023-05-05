@@ -1,0 +1,75 @@
+.feedback{
+    margin-top: 4rem;
+}
+.feedbacks{
+
+}
+.feedback-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IRANSansWeb_Light.woff';
+}
+.feedback-up-text{
+    background-color: rgba(136, 136, 185, 0.459);
+    padding: 0.5rem 1.4rem;
+    border-radius:1rem;
+    color: blue;
+}
+.feedback-up-title{
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+.feedback-up-paraph{
+    margin: 0 0 1rem 0;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #333333;
+}
+.feedback-down{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.feedback-comment{
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 450px;
+background-color: #F8FBFF;
+padding: 1rem;
+}
+.comment-user{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.comment-user-img{
+    width: 100px;
+    border-radius: 50%;
+}
+.comment-user-name{
+    margin-right: 1rem;
+    text-align: right;
+    font-family: 'IRANSansWeb_Light.woff';
+}
+.user-name{
+    font-size: 1.3rem;
+}
+.user-name-job{
+    font-size: 1.1rem;
+}
+.comment-text{
+    text-align: right;
+    font-family: 'IRANSansWeb_Light.woff';
+    line-height: 1.3;
+}
+.down-images{
+margin-top: 1rem;   
+}
+.down-img{
+    width: 100%;
+}

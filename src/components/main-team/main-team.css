@@ -1,0 +1,102 @@
+.main-team{
+    margin-top: 4rem;
+}
+.teams{
+
+}
+.team-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IRANSansWeb_Light.woff';
+}
+.team-up-text{
+    background-color: rgba(136, 136, 185, 0.459);
+    padding: 0.5rem 1.4rem;
+    border-radius:1rem;
+    color: blue;
+}
+.team-up-title{
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+.team-up-paraph{
+    margin: 0 0 1rem 0;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #333333;
+}
+.team-down{
+    margin-top: 2rem;
+}
+.team-cart-box{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.cart-team{
+    width: 230px;
+    border: 1px solid #dadada;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 0.2rem 0.2rem #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    transition: all 0.3s  ease-in;
+}
+.cart-team-content{
+    text-align: center;
+}
+.cart-team:hover .cart-team-media{
+    bottom: 0rem;
+    opacity: 1;
+}
+.cart-team:hover .team-job{
+    opacity: 0;
+}
+.cart-team-img{
+    width: 150px;
+    border-radius: 50%;
+    margin: 1rem 0;
+}
+.cart-team-name{
+    font-family: 'IRANSansWeb_Light.woff';
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.cart-team-email{
+    font-family: 'IRANSansWeb_Light.woff';
+    font-size: 1rem;
+    color: #333333;
+}
+.cart-team-jobs{
+    display: block;
+    width: 100%;
+    height: 1.5rem;
+    margin: 1.5rem 0;
+    border-top: 1px solid #eee;
+    text-align: center;
+    font-family: 'IRANSansWeb_Light.woff';
+    font-size: 1rem;
+    color: #333333;
+}
+.team-job{
+    display: block;
+  padding-top: 1rem;
+  transition: all  0.3s ease-in;
+}
+.cart-team-media{
+    position: absolute;
+    bottom: -4rem;
+    font-size: 2rem;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}
+.team-media-link{
+    margin: 0 0.5rem;
+    color: #4D5CF9;
+}

@@ -1,0 +1,112 @@
+.main-product{
+    margin-top: 4rem;
+}
+.product{
+
+}
+.product-up{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'IRANSansWeb_Light.woff';
+}
+.product-up-text{
+    background-color: rgba(136, 136, 185, 0.459);
+    padding: 0.5rem 1.4rem;
+    border-radius:1rem;
+    color: blue;
+}
+.product-up-title{
+    margin: 1rem 0;
+    font-size: 2rem;
+}
+.product-up-paraph{
+    margin: 0 0 1rem 0;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #333333;
+}
+
+.product-down{
+    margin-top: 2rem;
+}
+.box-product{
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+align-items: center;
+text-align: right;
+}
+.cart-product{
+    border: 1px solid #dadada;
+    border-radius: 0.4rem;
+    box-shadow: 0 0 0.2rem 0.2rem #ccc;
+    width: 300px;
+}
+.cart-product-title{
+    font-family: 'IRANSansWeb_Light.woff';
+    font-size: 2rem;
+    padding-right: 1rem;
+    color: #022534;
+}
+.cart-product-prices{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+.product-price{
+    font-family: 'IRANSansWeb_Light.woff';
+color: #4252F9;
+font-size: 1.8rem;
+font-weight: bold;
+margin-bottom: 0.5rem;
+}
+.product-price-text{
+    font-family: 'IRANSansWeb_Light.woff';
+    font-size: 1.1rem;
+}
+.cart-product-details{
+    padding: 0 1rem;
+    margin: 2rem 0;
+}
+.product-details-items{
+    display: flex;
+    flex-direction: column;
+    
+}
+.product-details-item{
+    list-style: none;
+    font-family: 'IRANSansWeb_Light.woff';
+    font-size: 1.2rem;
+    
+}
+.check-box{
+    color: #4252F9;
+    margin-left: 0.4rem;
+}
+.close-box{
+    color:red;
+    margin-left: 0.4rem;
+}
+.cart-product-btn{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #4252F9;
+    border-radius: 0.5rem;
+    width: 150px;
+    height: 1.5rem;
+padding: 0.5rem 0;    
+    margin: 1rem auto;
+    font-family: 'IRANSansWeb_Light.woff';
+    color: #111;
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in;
+}
+.cart-product-btn:hover{
+    background-color: #4252F9;
+    color: #fff;
+}
